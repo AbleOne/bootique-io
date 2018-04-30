@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on Bootique: Minimally Opionated Framework for Runnable Java</title>
+    <link>https://bootique.io/docs/</link>
+    <description>Recent content in Docs on Bootique: Minimally Opionated Framework for Runnable Java</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://bootique.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bootique Core Documentation</title>
+      <link>https://bootique.io/docs/0/bootique-docs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bootique.io/docs/0/bootique-docs/</guid>
+      <description>Part I. Overview Chapter 1. What is Bootique Bootique is a minimally opinionated technology for building container-less runnable Java applications. No JavaEE container required to run your app! It is an ideal platform for microservices, as it allows you to create a fully functional app with minimal-to-no setup. Though it is not limited to a specific kind of app (or the &amp;ldquo;micro&amp;rdquo; size) and can be used for REST services, webapps, runnable jobs, DB migrations, JavaFX GUI apps to mention a few examples.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Bootique</title>
+      <link>https://bootique.io/docs/0/getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bootique.io/docs/0/getting-started/</guid>
+      <description>Chapter 1. Hello World in Bootique The goal of this chapter is to write a simple REST app using Bootique. Let&amp;rsquo;s start with a new Java Maven project created in your favorite IDE. Your pom.xml in addition to the required project information tags will need to declare a few BOM (&amp;ldquo;Bill of Material&amp;rdquo;) imports in the &amp;lt;dependencyManagement/&amp;gt; section:
+&amp;lt;dependencyManagement&amp;gt; &amp;lt;dependencies&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;io.bootique.bom&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;bootique-bom&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;0.25&amp;lt;/version&amp;gt; &amp;lt;type&amp;gt;pom&amp;lt;/type&amp;gt; &amp;lt;scope&amp;gt;import&amp;lt;/scope&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;/dependencies&amp;gt; &amp;lt;/dependencyManagement&amp;gt;  This will allow &amp;lt;dependencies/&amp;gt; section that will follow shortly to include various Bootique modules and not worry about their individual versions.</description>
+    </item>
+    
+  </channel>
+</rss>
